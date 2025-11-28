@@ -1,0 +1,13 @@
+package mypackage;
+import java.util.*; 
+class MyProgram {
+int number; // Data Member
+void display() { // Method
+System.out.println("Number is: " + number);
+}
+public static void main(String[] args) { // Main Method
+MyProgram obj = new MyProgram();
+obj.number = 100;
+obj.display();
+}
+}
